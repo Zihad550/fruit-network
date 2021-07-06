@@ -205,22 +205,58 @@ p {
     font-size: 1.5rem;
     text-align: justify;
 }
+
 /* fruit area css end */
 /* =============
  social area css start
  ============*/
 #customers {
-    height: 75rem;background:url('img/background.jpg');
-    background-size: cover;padding:3rem 0;
+    height: 75rem;
+    background: url('img/background.jpg');
+    background-size: cover;
+    padding: 3rem 0;
 }
-#customers h2{text-align:center;font-size:3.5rem;}
 
-.customer{flex-basis:30%;width:30rem;height:45rem;box-shadow:0px 0px 10px 0px #0000004d;margin:2rem 0rem;border-radius:2rem;padding:2rem;}
-.customer h4{font-size:2.5rem;margin:1rem 0;}
-.customer p{font-size:1.5rem;}
-.customer span{margin-top:2rem;color:#000000d0;float:right;display:inline-block;}
-.customer:first-child span{margin-top:4rem;}
-.customer img{width:28rem;height:28rem;border-radius:2rem;}
+#customers h2 {
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.customer {
+    flex-basis: 30%;
+    width: 30rem;
+    height: 45rem;
+    box-shadow: 0px 0px 10px 0px #0000004d;
+    margin: 2rem 0rem;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.customer h4 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+.customer p {
+    font-size: 1.5rem;
+}
+
+.customer span {
+    margin-top: 2rem;
+    color: #000000d0;
+    float: right;
+    
+}
+
+.customer:first-child span {
+    margin-top: 4rem;
+}
+
+.customer img {
+    width: 28rem;
+    height: 28rem;
+    border-radius: 2rem;
+}
 
 
 
@@ -245,6 +281,7 @@ p {
     font-size: 2rem;
     color: #000000af;
 }
+
 /* social are css end */
 
 /* =============
@@ -255,7 +292,7 @@ p {
     background: #000000f6;
     text-align: center;
     padding-top: 2rem;
-    
+
 }
 
 #footer h2 {
