@@ -29,7 +29,7 @@ img{width:100%;height:auto;}
 /* common css end*/
 
 /* =============
- common css start
+ header area css start
  ============*/
  #header{height:60rem;}
  .hdr_txt_wrp{flex-basis:47%;display:flex;flex-direction:column;justify-content:center;}
@@ -38,12 +38,19 @@ img{width:100%;height:auto;}
  .hdr_txt_wrp p{font-size:2rem;margin:2rem 0rem;}
  .hdr_img_wrp{flex-basis:50%;}
 
+ /*headera are css ends*/
+
 /* =============
- common css start
+ myself area css start
  ============*/
-
-
-
+ #myself{height:40rem;background:url('img/Frame\ 57.jpg');background-size:cover;margin:3rem 0rem;}
+ .myself_img_wrp{height:40rem;flex-basis:40%;display:flex;align-items:flex-end;}
+ .myself_img_wrp img{height:35rem;width:30rem;}
+ .myself_txt_wrp{flex-basis:60%;display:flex;flex-direction:column;justify-content:center;}
+ .myself_txt_wrp h2{font-size:3rem;}
+ .myself_txt_wrp p{font-size:2rem;margin:1.5rem 0rem 6rem;}
+ 
+/*myself area css end*/
 
 /* =============
  common css start
