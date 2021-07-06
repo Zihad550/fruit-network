@@ -65,7 +65,8 @@ img{width:100%;height:auto;}
     box-shadow: 0px 0px 20px 1px #0000002e;
     border-radius: 2rem;
     padding: 1.5rem;}
- .recipie_img{width:28rem;height:21rem;}
+ .recipie_img{width:28rem;height:21rem;border-radius:2rem;}
+ 
  .recipie h4{font-size:2rem;margin:2rem 0rem;}
  .recipie p{font-size:1.5rem;}
 
