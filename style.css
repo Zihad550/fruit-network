@@ -1,0 +1,54 @@
+/* =============
+ common css start
+ ============*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+img{width:100%;height:auto;}
+
+ .container{width:80%;margin:0 auto;}
+ .flex_container{display:flex;justify-content:space-between;}
+ .btn{text-decoration:none;color:white;background:linear-gradient(to right, #12B3FB, #048AF7);display:inline-block;width:12rem;padding:1.2rem;border-radius:2rem;font-size:1.8rem;}
+/* common css end*/
+
+/* =============
+ common css start
+ ============*/
+ #header{height:60rem;}
+ .hdr_txt_wrp{flex-basis:47%;display:flex;flex-direction:column;justify-content:center;}
+ .hdr_txt_wrp h2{font-size:4rem;}
+ .hdr_txt_wrp h2 span{color:#058EF7;}
+ .hdr_txt_wrp p{font-size:2rem;margin:2rem 0rem;}
+ .hdr_img_wrp{flex-basis:50%;}
+
+/* =============
+ common css start
+ ============*/
+
+
+
+
+/* =============
+ common css start
+ ============*/
+
+/* =============
+ common css start
+ ============*/
