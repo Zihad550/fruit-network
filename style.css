@@ -55,6 +55,35 @@ img{width:100%;height:auto;}
 /* =============
  common css start
  ============*/
+#recipies{height:62rem;margin:6rem 0rem;}
+ .recipies_txt_wrp {text-align:center;margin:0 auto;width:50rem;}
+ .recipies_txt_wrp h2{font-size:3rem;}
+ .recipies_txt_wrp p{font-size:1.8rem;margin:1.5rem 0rem;}
+
+ .recipie{height: 42rem;
+    flex-basis: 28.5%;
+    box-shadow: 0px 0px 20px 1px #0000002e;
+    border-radius: 2rem;
+    padding: 1.5rem;}
+ .recipie_img{width:28rem;height:21rem;}
+ .recipie h4{font-size:2rem;margin:2rem 0rem;}
+ .recipie p{font-size:1.5rem;}
+
+/* =============
+ common css start
+ ============*/
+
+ /* =============
+ common css start
+ ============*/
+
+/* =============
+ common css start
+ ============*/
+
+ /* =============
+ common css start
+ ============*/
 
 /* =============
  common css start
