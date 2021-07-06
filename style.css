@@ -52,6 +52,12 @@ p {
     font-size: 1.8rem;
 }
 
+.btn:hover {
+    color: black;
+    background: white;
+    border: .1rem solid #058ef7;
+}
+
 /* common css end*/
 
 /* =============
@@ -116,6 +122,7 @@ p {
 .hdr_img_wrp {
     flex-basis: 50%;
 }
+
 
 /*headera are css ends*/
 
@@ -245,7 +252,7 @@ p {
     margin-top: 2rem;
     color: #000000d0;
     float: right;
-    
+
 }
 
 .customer:first-child span {
