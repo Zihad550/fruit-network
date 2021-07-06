@@ -1,7 +1,7 @@
 /* =============
  common css start
  ============*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 
 * {
     padding: 0;
@@ -21,80 +21,244 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
 }
-img{width:100%;height:auto;}
 
- .container{width:80%;margin:0 auto;}
- .flex_container{display:flex;justify-content:space-between;}
- .btn{text-decoration:none;color:white;background:linear-gradient(to right, #12B3FB, #048AF7);display:inline-block;width:12rem;padding:1.2rem;border-radius:2rem;font-size:1.8rem;}
+img {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    font-weight: 300;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to right, #12B3FB, #048AF7);
+    display: inline-block;
+    width: 12rem;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    font-size: 1.8rem;
+}
+
 /* common css end*/
 
 /* =============
  header area css start
  ============*/
- #header{height:60rem;}
- .hdr_txt_wrp{flex-basis:47%;display:flex;flex-direction:column;justify-content:center;}
- .hdr_txt_wrp h2{font-size:4rem;}
- .hdr_txt_wrp h2 span{color:#058EF7;}
- .hdr_txt_wrp p{font-size:2rem;margin:2rem 0rem;}
- .hdr_img_wrp{flex-basis:50%;}
+#header {
+    height: 60rem;
+}
 
- /*headera are css ends*/
+.nav_area {
+    height: 5rem;
+}
+
+.nav_area img {
+    height: 5rem;
+    width: 25rem;
+    display: inline-block;
+}
+
+#nav {
+    background: linear-gradient(to right, #12B3FB, #048AF7);
+}
+
+#nav ul {
+    list-style: none;
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav li a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    padding: 1rem 3rem;
+    margin-left: -.1rem;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.hdr_txt_wrp {
+    flex-basis: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hdr_txt_wrp h2 {
+    font-size: 4rem;
+}
+
+.hdr_txt_wrp h2 span {
+    color: #058EF7;
+}
+
+.hdr_txt_wrp p {
+    font-size: 2rem;
+    margin: 2rem 0rem;
+}
+
+.hdr_img_wrp {
+    flex-basis: 50%;
+}
+
+/*headera are css ends*/
 
 /* =============
- myself area css start
+ contact area css start
  ============*/
- #myself{height:40rem;background:url('img/Frame\ 57.jpg');background-size:cover;margin:3rem 0rem;}
- .myself_img_wrp{height:40rem;flex-basis:40%;display:flex;align-items:flex-end;}
- .myself_img_wrp img{height:35rem;width:30rem;}
- .myself_txt_wrp{flex-basis:60%;display:flex;flex-direction:column;justify-content:center;}
- .myself_txt_wrp h2{font-size:3rem;}
- .myself_txt_wrp p{font-size:2rem;margin:1.5rem 0rem 6rem;}
- 
-/*myself area css end*/
+#contact {
+    height: 40rem;
+    background: url('img/Frame\ 57.jpg');
+    background-size: cover;
+    margin: 3rem 0rem;
+}
+
+.contact_img_wrp {
+    height: 40rem;
+    flex-basis: 40%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.contact_img_wrp img {
+    height: 35rem;
+    width: 30rem;
+}
+
+.contact_txt_wrp {
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact_txt_wrp h2 {
+    font-size: 3rem;
+}
+
+.contact_txt_wrp p {
+    font-size: 2rem;
+    margin: 1.5rem 0rem 6rem;
+}
+
+/*contact area css end*/
 
 /* =============
- common css start
+ fruit area css start
  ============*/
-#recipies{height:62rem;margin:6rem 0rem;}
- .recipies_txt_wrp {text-align:center;margin:0 auto;width:50rem;}
- .recipies_txt_wrp h2{font-size:3rem;}
- .recipies_txt_wrp p{font-size:1.8rem;margin:1.5rem 0rem;}
+#fruits {
+    height: 62rem;
+    margin: 6rem 0rem;
+}
 
- .recipie{height: 42rem;
+.fruits_txt_wrp {
+    text-align: center;
+    margin: 0 auto;
+    width: 50rem;
+}
+
+.fruits_txt_wrp h2 {
+    font-size: 3rem;
+}
+
+.fruits_txt_wrp p {
+    font-size: 1.8rem;
+    margin: 1.5rem 0rem;
+}
+
+.fruit {
+    height: 47rem;
     flex-basis: 28.5%;
     box-shadow: 0px 0px 20px 1px #0000002e;
     border-radius: 2rem;
-    padding: 1.5rem;}
- .recipie_img{width:28rem;height:21rem;border-radius:2rem;}
- 
- .recipie h4{font-size:2rem;margin:2rem 0rem;}
- .recipie p{font-size:1.5rem;}
+    padding: 1.5rem;
+}
+
+.fruit_img {
+    width: 28rem;
+    height: 21rem;
+    border-radius: 2rem;
+}
+
+.fruit h4 {
+    font-size: 2rem;
+    margin: 2rem 0rem;
+}
+
+.fruit p {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+/* fruit area css end */
+/* =============
+ customer area css start
+ ============*/
+#customers {
+    height: 20rem;
+}
+
+.customer_container {
+    box-shadow: 0px 0px 10px 0px #0000004d;
+    height: 12rem;
+    border-radius: 2rem;
+}
+
+.customer {
+    flex-basis: 30%;
+    text-align: center;
+    margin: auto 0;
+}
+
+.customer h2 {
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+
+.customer p {
+    font-size: 2rem;
+    color: #000000af;
+}
+/* customer are css end */
 
 /* =============
- common css start
+ footer area css start
  ============*/
- #followers{height:20rem;}
- .follower_container{box-shadow: 0px 0px 10px 0px #0000004d;height:12rem;border-radius:2rem;}
- .follower{flex-basis:30%;text-align:center;margin: auto 0;}
- .follower h2{font-size:3rem;margin-bottom:.5rem;}
- .follower p{font-size:2rem;color:#000000af;}
+#footer {
+    height: 15rem;
+    background: #000000f6;
+    text-align: center;
+    padding-top: 2rem;
+}
 
- /* =============
- common css start
- ============*/
- #footer{height:15rem;background:#000000f6;text-align:center;padding-top:2rem;}
- #footer h2{font-size:3rem;color:#5d5a5afa;margin:0rem 0rem 1.5rem;}
- #footer p{font-size:1.8rem;color:#c0bdbd;}
- #footer h2 span{color:blue;}
+#footer h2 {
+    font-size: 3rem;
+    color: #5d5a5afa;
+    margin: 0rem 0rem 1.5rem;
+}
 
-/* =============
- common css start
- ============*/
+#footer p {
+    font-size: 1.8rem;
+    color: #c0bdbd;
+}
 
- /* =============
- common css start
- ============*/
+#footer h2 span {
+    color: blue;
+}
 
-/* =============
- common css start
- ============*/
+/* footer area css end */
