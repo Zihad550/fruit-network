@@ -72,10 +72,19 @@ img{width:100%;height:auto;}
 /* =============
  common css start
  ============*/
+ #followers{height:20rem;}
+ .follower_container{box-shadow: 0px 0px 10px 0px #0000004d;height:12rem;border-radius:2rem;}
+ .follower{flex-basis:30%;text-align:center;margin: auto 0;}
+ .follower h2{font-size:3rem;margin-bottom:.5rem;}
+ .follower p{font-size:2rem;color:#000000af;}
 
  /* =============
  common css start
  ============*/
+ #footer{height:15rem;background:#000000f6;text-align:center;padding-top:2rem;}
+ #footer h2{font-size:3rem;color:#5d5a5afa;margin:0rem 0rem 1.5rem;}
+ #footer p{font-size:1.8rem;color:#c0bdbd;}
+ #footer h2 span{color:blue;}
 
 /* =============
  common css start
