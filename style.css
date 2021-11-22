@@ -1,128 +1,144 @@
+/* table of contents
+1. global
+2. common
+2. 
+
+
+
+
+*/
+
 /* =============
- common css start
+ global css 
  ============*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 *,
 *::after,
 *::before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
 }
 
 img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 p {
-    font-weight: 300;
+  font-weight: 400;
+  line-height: 1.5em;
 }
 
+/* =============
+ common css 
+ ============*/
+
 .container {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .flex_container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .btn {
-    text-decoration: none;
-    color: white;
-    background: linear-gradient(to right, #12B3FB, #048AF7);
-    display: inline-block;
-    width: 12rem;
-    padding: 1.2rem;
-    border-radius: 2rem;
-    font-size: 1.8rem;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(to right, #12b3fb, #048af7);
+  display: inline-block;
+  width: 12rem;
+  padding: 1.2rem;
+  border-radius: 2rem;
+  font-size: 1.8rem;
 }
 
 .btn:hover {
-    color: black;
-    background: white;
-    border: .1rem solid #058ef7;
+  color: black;
+  background: white;
+  border: 0.1rem solid #058ef7;
 }
-
-/* common css end*/
 
 /* =============
  header area css start
  ============*/
-#header {
-    height: 60rem;
-}
-
-.nav_area {
-    height: 5rem;
-}
 
 .nav_area img {
-    height: 5rem;
-    width: 25rem;
-    display: inline-block;
+  height: 5rem;
+  width: 25rem;
+  display: inline-block;
 }
 
 #nav {
-    background: linear-gradient(to right, #12B3FB, #048AF7);
+  background: linear-gradient(to right, #12b3fb, #048af7);
 }
 
 #nav ul {
-    list-style: none;
+  list-style: none;
 }
 
 #nav li {
-    display: inline-block;
+  display: inline-block;
 }
 
 #nav li a {
-    text-decoration: none;
-    font-size: 2rem;
-    color: white;
-    padding: 1rem 3rem;
-    margin-left: -.1rem;
-    display: inline-block;
-    text-transform: uppercase;
+  height: 100%;
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  padding: 2rem 3rem;
+  margin-left: -0.1rem;
+  display: inline-block;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+}
+
+#nav li a:hover {
+  background: black;
 }
 
 .hdr_txt_wrp {
-    flex-basis: 47%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  flex-basis: 47%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hdr_txt_wrp h2 {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 .hdr_txt_wrp h2 span {
-    color: #058EF7;
+  color: #058ef7;
 }
 
 .hdr_txt_wrp p {
-    font-size: 2rem;
-    margin: 2rem 0rem;
+  font-size: 2rem;
+  margin: 2rem 0rem;
 }
 
 .hdr_img_wrp {
-    flex-basis: 50%;
+  flex-basis: 50%;
 }
 
+.hdr_img_wrp img {
+  height: 100%;
+}
 
 /*headera are css ends*/
 
@@ -130,38 +146,38 @@ p {
  contact area css start
  ============*/
 #contact {
-    height: 40rem;
-    background: url('img/background.jpg');
-    background-size: cover;
-    margin: 3rem 0rem;
+  height: 40rem;
+  background: url("img/background.jpg");
+  background-size: cover;
+  margin: 3rem 0rem;
 }
 
 .contact_img_wrp {
-    height: 40rem;
-    flex-basis: 40%;
-    display: flex;
-    align-items: flex-end;
+  height: 40rem;
+  flex-basis: 40%;
+  display: flex;
+  align-items: flex-end;
 }
 
 .contact_img_wrp img {
-    height: 35rem;
-    width: 30rem;
+  height: 35rem;
+  width: 30rem;
 }
 
 .contact_txt_wrp {
-    flex-basis: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  flex-basis: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .contact_txt_wrp h2 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .contact_txt_wrp p {
-    font-size: 2rem;
-    margin: 1.5rem 0rem 6rem;
+  font-size: 2rem;
+  margin: 1.5rem 0rem 6rem;
 }
 
 /*contact area css end*/
@@ -170,47 +186,46 @@ p {
  fruit area css start
  ============*/
 #fruits {
-    height: 62rem;
-    margin: 6rem 0rem;
+  height: 62rem;
+  margin: 6rem 0rem;
 }
 
 .fruits_txt_wrp {
-    text-align: center;
-    margin: 0 auto;
-    width: 50rem;
+  text-align: center;
+  margin: 0 auto;
+  width: 50rem;
 }
 
 .fruits_txt_wrp h2 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .fruits_txt_wrp p {
-    font-size: 1.8rem;
-    margin: 1.5rem 0rem;
+  /* font-size: 1.8rem; */
+  margin: 1.5rem 0rem;
 }
 
 .fruit {
-    height: 47rem;
-    flex-basis: 28.5%;
-    box-shadow: 0px 0px 20px 1px #0000002e;
-    border-radius: 2rem;
-    padding: 1.5rem;
+  height: 47rem;
+  flex-basis: 28.5%;
+  box-shadow: 0px 0px 20px 1px #0000002e;
+  border-radius: 2rem;
+  padding: 1.5rem;
 }
 
 .fruit_img {
-    width: 28rem;
-    height: 21rem;
-    border-radius: 2rem;
+  height: 21rem;
+  border-radius: 2rem;
 }
 
 .fruit h4 {
-    font-size: 2rem;
-    margin: 2rem 0rem;
+  font-size: 2rem;
+  margin: 2rem 0rem;
 }
 
 .fruit p {
-    font-size: 1.5rem;
-    text-align: justify;
+  font-size: 1.5rem;
+  text-align: justify;
 }
 
 /* fruit area css end */
@@ -218,75 +233,67 @@ p {
  social area css start
  ============*/
 #customers {
-    height: 75rem;
-    background: url('img/background.jpg');
-    background-size: cover;
-    padding: 3rem 0;
+  height: 75rem;
+  background: url("img/background.jpg");
+  background-size: cover;
+  padding: 3rem 0;
 }
 
 #customers h2 {
-    text-align: center;
-    font-size: 3.5rem;
+  text-align: center;
+  font-size: 3.5rem;
 }
 
 .customer {
-    flex-basis: 30%;
-    width: 30rem;
-    height: 45rem;
-    box-shadow: 0px 0px 10px 0px #0000004d;
-    margin: 2rem 0rem;
-    border-radius: 2rem;
-    padding: 2rem;
+  flex-basis: 30%;
+  width: 30rem;
+  height: 45rem;
+  box-shadow: 0px 0px 10px 0px #0000004d;
+  margin: 2rem 0rem;
+  border-radius: 2rem;
+  padding: 2rem;
 }
 
 .customer h4 {
-    font-size: 2.5rem;
-    margin: 1rem 0;
+  font-size: 2.5rem;
+  margin: 1rem 0;
 }
 
 .customer p {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .customer span {
-    margin-top: 2rem;
-    color: #000000d0;
-    float: right;
-
-}
-
-.customer:first-child span {
-    margin-top: 4rem;
+  margin-top: 2rem;
+  color: #000000d0;
+  float: right;
 }
 
 .customer img {
-    width: 28rem;
-    height: 28rem;
-    border-radius: 2rem;
+  height: 28rem;
+  border-radius: 2rem;
 }
 
-
-
 .social_container {
-    box-shadow: 0px 0px 10px 0px #0000004d;
-    height: 12rem;
-    border-radius: 2rem;
+  box-shadow: 0px 0px 10px 0px #0000004d;
+  height: 12rem;
+  border-radius: 2rem;
 }
 
 .social {
-    flex-basis: 30%;
-    text-align: center;
-    margin: auto 0;
+  flex-basis: 30%;
+  text-align: center;
+  margin: auto 0;
 }
 
 .social h2 {
-    font-size: 3rem;
-    margin-bottom: .5rem;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
 }
 
 .social p {
-    font-size: 2rem;
-    color: #000000af;
+  font-size: 2rem;
+  color: #000000af;
 }
 
 /* social are css end */
@@ -295,26 +302,25 @@ p {
  footer area css start
  ============*/
 #footer {
-    height: 15rem;
-    background: #000000f6;
-    text-align: center;
-    padding-top: 2rem;
-
+  height: 15rem;
+  background: #000000f6;
+  text-align: center;
+  padding-top: 2rem;
 }
 
 #footer h2 {
-    font-size: 3rem;
-    color: #5d5a5afa;
-    margin: 0rem 0rem 1.5rem;
+  font-size: 3rem;
+  color: #5d5a5afa;
+  margin: 0rem 0rem 1.5rem;
 }
 
 #footer p {
-    font-size: 1.8rem;
-    color: #c0bdbd;
+  font-size: 1.8rem;
+  color: #c0bdbd;
 }
 
 #footer h2 span {
-    color: blue;
+  color: blue;
 }
 
 /* footer area css end */
